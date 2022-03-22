@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi signo sodiacal</title>
+    <link rel="stylesheet" href="index.css">
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="contenedor">
+
+        <form action="" class="formulario">
+            <p>Vamos a mostrar tu signo zodiacal segun tu fecha de nacimiento y lo que te depara el futuro. Solo debes completar los campos del formulario</p>
+            <label for="">Hola cual es tu Nombre</label>
+            <h4 class="span">Alerta</h4>
+            <input type="text" class="nombre" placeholder="Ingrese su nombre">
+
+            <label for="">Seleccione la opcion en la cual se encuentra su fecha de nacimiento</label>
+            <select name="" id="valor_select" class="valor_select">
+                <option value="seleccione">Seleccione opcion</option>
+                <option value="marzo_abril">21 de Marzo al 20 de Abril</option>
+                <option value="abril_mayo">21 de Abril al 21 de Mayo</option>
+                <option value="mayo_junio">22 de Mayo al 21 de Junio</option>
+                <option value="junio_julio">22 de Junio al 23 de Julio</option>
+                <option value="julio_agosto">24 de Julio al 23 de Agosto</option>
+                <option value="agosto_setiembre">24 de Agosto al 23 de Setiembre</option>
+                <option value="setiembre_octubre">24 de Setiembre al 23 de Octubre</option>
+                <option value="octubre_noviembre">23 de Octubre al 22 de Noviembre</option>
+                <option value="noviembre_diciembre">23 de Noviembre al 22 de Diciembre</option>
+                <option value="diciembre_enero">23 de Diciembre al 20 de Enero</option>
+                <option value="enero_febrero">21 de Enero al 19 de Febrero</option>
+                <option value="febrero_marzo">20 de Febrero al 20 de Marzo</option>
+            </select>
+
+        <input type="submit" value="OK" class="ok">
+
+        </form>
+        <div class="complete">
+            <p class="cpm">Complete el formulario</p>
+        </div>
+
+        <div class="mensajes">
+            <input type="button" value="Cerrar" class="cerrar">
+            <div class="parrafos">
+                <p class="signo_p">00</p>
+                <p class="signo_msj">00</p>
+            </div>
+
+        </div>
+
+
+    </div>
+    <script src="signo.js"></script>
+</body>
+</html>
