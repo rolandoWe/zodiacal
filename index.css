@@ -43,7 +43,7 @@
     position: relative;
     /* background-color: rgb(235, 235, 235); */
     border-radius: 5px;
-    box-shadow: 1px 1px 55px 1px black;
+    box-shadow: 1px 1px 25px 1px rgb(0, 8, 95,.4);
 }
 .formulario p{
     font-size: 20px;
