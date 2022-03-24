@@ -7,7 +7,7 @@
     max-width: 1200px;
     margin: auto;
     height:100vh;
-    background-image: linear-gradient(-45deg, rgb(11, 11, 248), rgb(252, 119, 252));
+    background-image: linear-gradient(-45deg, rgb(11, 11, 248), rgb(119, 216, 252));
     display: flex;
     align-items: center;
     font-family: "public sans";
@@ -18,7 +18,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgb(0, 0, 0,.7);
+    background-color: rgba(4, 57, 218, 0.7);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +28,7 @@
 }
 .cpm{
     color:white;
-    background-color: rgb(253, 122, 122);
+    background-color: rgb(185, 69, 175);
     width: 100%;
     text-align: center;
     font-size: 35px;
@@ -41,9 +41,9 @@
     margin: auto;
     padding: 5px;
     position: relative;
-    /* background-color: rgb(235, 235, 235); */
+    background:linear-gradient(15deg, rgb(41, 41, 252), rgb(0, 221, 255));
     border-radius: 5px;
-    box-shadow: 1px 1px 25px 1px rgb(0, 8, 95,.4);
+    /* box-shadow: 1px 1px 25px 1px rgb(0, 8, 95,.4); */
 }
 .formulario p{
     font-size: 20px;
@@ -91,7 +91,7 @@
     bottom: 10px;
     left: 10px;
     border:none;
-    background-image: linear-gradient(45deg, rgb(18, 45, 250), rgb(164, 13, 175));
+    background-image: linear-gradient(45deg, rgb(18, 45, 250), rgb(1, 14, 107));
     color: white;
     cursor: pointer;
     border-radius: 5px;
